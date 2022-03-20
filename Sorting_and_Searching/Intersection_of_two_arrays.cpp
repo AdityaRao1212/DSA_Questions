@@ -32,3 +32,6 @@ public:
         return res; // resultant vector.
     }
 };
+//Analysis:- 
+//TC:- O(n)
+//SC:- O(n) 
