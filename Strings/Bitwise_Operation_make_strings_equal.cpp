@@ -8,7 +8,7 @@ public:
         // In this question if there is even 1 present we will be able to convert our string to the target string because XOR will allow us to do so.
         // Edge case: In case our entire string consists of only '0' on either the target or the string s. We will have to return false.
         if (s == target)
-            return true; // If the strings are alreadt equal no need for any computation.
+            return true; // If the strings are already equal no need for any computation.
         int n = s.length(), m = target.length();
         if (n < m or n > m)
             return false; // If they are not the same length.
